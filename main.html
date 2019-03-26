@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+
+    <title>Coffee shop "CoffeeDucks'!"</title>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"> <!--В этой строке дарк отвечает за темный цвет бара, а фиксед-топ отвечает за зафиксирование бара в верхней части страницы. Еще есть вариант sticky-top, в этом случае панель бара не будет закрывать часть страницы вверху а возьмет себе свою часть страницы-->
+        <a href="main.html" class="navbar"> 
+            <img class="logo" src="images/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">About us</a> <!--Здесь первая кнопка отвечающая за модальное окно-->
+                </li>
+                <li class="nav-item">
+                        <a href="#" class="nav-link" data-toggle="modal" data-target="#ModalRegistration">Log in</a> <!--Здесь вторая кнопка отвечаюзая за модельное окно для регистрации и входа пользователей-->
+                    </li>
+            </ul>
+          <form class="form-inline mu-2 mu-lg-0">
+              <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-succes my-3 my-sm-0"><p class="searchbutton">Search</p></button>
+          </form>
+        </div>
+     </nav>
+
+     <div class="container-fluid p-0">
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+             <ol class="carousel-indicators">
+                 <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0">
+                 </li>
+                 <li data-target="#carouselExampleIndicators" data-slide-to="1">
+                 </li>
+                 <li data-target="#carouselExampleIndicators" data-slide-to="2">
+                 </li>
+             </ol>
+             <div class="carousel-inner"> 
+                 <div class="carousel-item active">
+                     <img src="images/first1.jpg"  class="d-block w-100">
+                 </div>
+                 <div class="carousel-item">
+                     <img src="images/two.jpg"  class="d-block w-100">
+                 </div>
+                 <div class="carousel-item">
+                     <img src="images/three.jpg"  class="d-block w-100">
+                 </div>
+                 <span class="nadpis">
+                        <p>Aleh Zahorski</p>
+                        <p>THE HISTORY OF COFFEE</p>
+                    <p>Article: 01/01/2019</p></span>
+             </div>
+             <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="sr-only">Previous</span>
+             </a>
+             <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>   
+         </div>
+     </div> <!--Тут заканчивается код для первоначальной страницы со слайдами-->
+
+<!--Тут начинается вступительная часть блога которая поведает о истории создания кофе. Я ее сделал с помощью Grid.css-->
+    
+    <div class="grid">
+        <div class="item0 text1" style="margin:20px;"><h2 style="text-align: center">Legendary accounts</h2><hr />
+            <p>According to legend, ancestors of today's Oromo people in a region of Kaffa in Ethiopia were believed to have been the first to recognize the energizing effect of the coffee plant. However, there is no direct evidence that has been found earlier than the 15th century indicating where in Africa coffee first grew or who among the native populations might have used it as a stimulant. The story of Kaldi, the 9th-century Ethiopian goatherd who discovered coffee when he noticed how excited his goats became after eating the beans from a coffee plant, did not appear in writing until 1671 and is probably apocryphal.
+                
+                Other accounts attribute the discovery of coffee to Sheikh Omar. According to an ancient chronicle (preserved in the Abd-Al-Kadir manuscript), Omar, who was known for his ability to cure the sick through prayer, was once exiled from Mocha in Yemen to a desert cave near Ousab (modern-day Wusab, about 90 km east of Zabid). Starving, Omar chewed berries from nearby shrubbery but found them to be bitter. He tried roasting the seeds to improve the flavor, but they became hard. He then tried boiling them to soften the seed, which resulted in a fragrant brown liquid. Upon drinking the liquid Omar was revitalized and sustained for days. As stories of this "miracle drug" reached Mocha, Omar was asked to return and was made a saint.</p></div>
+        <img class="photo1" src="images/cofphoto.jpg" style=" width: 320px; height: 420px;">
+        <img class="photo2" src="images/zdiecie.png" style="width: 320px; height: 550px;">
+        <div class="item3 text2" style="margin:20px;"><h2 style="text-align: center">Historical transmission</h2><hr />
+        
+<p>View of Mocha, Yemen during the second half of the 17th century.
+The earliest credible evidence of coffee-drinking or knowledge of the coffee tree appears in the middle of the 15th century in the accounts of Ahmed al-Ghaffar in Yemen. It was here in Arabia that coffee seeds were first roasted and brewed, in a similar way to how it is prepared now. Coffee was used by Sufi circles to stay awake for their religious rituals. Accounts differ on the origin of the coffee plant prior to its appearance in Yemen. From Ethiopia, coffee could have been introduced to Yemen via trade across the Red Sea. One account credits Muhammad Ibn Sa'd for bringing the beverage to Aden from the African coast. Other early accounts say Ali ben Omar of the Shadhili Sufi order was the first to introduce coffee to Arabia. According to al Shardi, Ali ben Omar may have encountered coffee during his stay with the Adal king Sadadin's companions in 1401. Famous 16th-century Islamic scholar Ibn Hajar al-Haytami notes in his writings of a beverage called qahwa developed from a tree in the Zeila region.
+
+Relief of a young, cherub-like boy passing a cup to a reclining man with a moustache and hat. The sculpture is white with gold accents on the cup, clothes, and items.
+Over the door of a Leipzig coffeeshop is a sculptural representation of a man in Turkish dress, receiving a cup of coffee from a boy.
+By the 16th century, coffee had reached the rest of the Middle East, Persia, Turkey, and northern Africa. The first coffee smuggled out of the Middle East was by Sufi Baba Budan from Yemen to Indian subcontinent in 1670. Before then, all exported coffee was boiled or otherwise sterilised. Portraits of Baba Budan depict him as having smuggled seven coffee seeds by strapping them to his chest. The first plants grown from these smuggled seeds were planted in Mysore. Coffee then spread to Italy, and to the rest of Europe, to Indonesia, and to the Americas.</p></div>
+        <div class="item4 text3" style="margin:20px;"><h2 style="text-align: center">Biology</h2><hr />
+        <p>Several species of shrub of the genus Coffea produce the berries from which coffee is extracted. The two main species commercially cultivated are Coffea canephora (predominantly a form known as 'robusta') and C. arabica. C. arabica, the most highly regarded species, is native to the southwestern highlands of Ethiopia and the Boma Plateau in southeastern Sudan and possibly Mount Marsabit in northern Kenya. C. canephora is native to western and central Subsaharan Africa, from Guinea to Uganda and southern Sudan. Less popular species are C. liberica, C. stenophylla, C. mauritiana, and C. racemosa.
+
+                All coffee plants are classified in the large family Rubiaceae. They are evergreen shrubs or trees that may grow 5 m (15 ft) tall when unpruned. The leaves are dark green and glossy, usually 10–15 cm (4–6 in) long and 6 cm (2.4 in) wide, simple, entire, and opposite. Petioles of opposite leaves fuse at the base to form interpetiolar stipules, characteristic of Rubiaceae. The flowers are axillary, and clusters of fragrant white flowers bloom simultaneously. Gynoecium consists of an inferior ovary, also characteristic of Rubiaceae. The flowers are followed by oval berries of about 1.5 cm (0.6 in). When immature they are green, and they ripen to yellow, then crimson, before turning black on drying. Each berry usually contains two seeds, but 5–10% of the berries have only one; these are called peaberries. Arabica berries ripen in six to eight months, while robusta takes nine to eleven months.
+                
+                Coffea arabica is predominantly self-pollinating, and as a result, the seedlings are generally uniform and vary little from their parents. In contrast, Coffea canephora, and C. liberica are self-incompatible and require outcrossing. This means that useful forms and hybrids must be propagated vegetatively. Cuttings, grafting, and budding are the usual methods of vegetative propagation. On the other hand, there is great scope for experimentation in search of potential new strains.
+                
+                In 2016, Oregon State University entomologist George Poinar, Jr. announced the discovery of a new plant species that's a 45-million-year-old relative of coffee found in amber. Named Strychnos electri, after the Greek word for amber (electron), the flowers represent the first-ever fossils of an asterid, which is a clade of flowering plants that not only later gave us coffee, but also sunflowers, peppers, potatoes, mint – and deadly poisons.</p></div>
+                <img class="photo3" src="images/ziornakawiane.png" >
+      
+    </div>
+
+
+
+
+
+
+     <div class="container-fluid">
+         <div class="container">
+             <div class="row text-center justify-content-center">
+                 <div class="col-sx-12 col-sm-4 col-lg-4"><img src="images/makiato.jpg" alt="" class="w-100"><h1>Macchiato</h1><p>Steps: <br>
+
+                        1
+                        Brew one shot of fresh espresso with espresso machine. <br>
+                        2
+                        Steam milk to 160°, and hold the steam wand just below the surface to create foam.<br>
+                        3
+                        Pour milk into espresso to taste and spoon foam on top. It might take a few tries to get your personal ratio right!</p></div>
+                 <div class="col-sx-12 col-sm-4 col-lg-4"><img src="images/easylatte.jpg" alt="" class="w-100"><h1>Easy Mocha Latte</h1><p>Steps:<br> 
+                        1
+                        Stir together the coffee and hot chocolate mix in a large mug.<br>
+                        2
+                        Heat the milk on the stove to warm -- it should be around 100 degrees or just hot enough that you can only keep a finger in it comfortably for a couple of seconds. Remove from the stove and froth the milk using an aerator. Alternatively, whisk vigorously by hand until the milk foams, about 1 minute. <br>
+                        3
+                        Pour the frothed milk into the coffee. If desired, garnish with whipped cream and a dusting of hot chocolate mix.<br>
+                        4
+                        For a peppermint mocha, stir the coffee with a candy cane.<br></p></div>
+                 <div class="col-sx-12 col-sm-4 col-lg-4"><img src="images/cocao-capucino.jpg" alt="" class="w-100"><h1>Chocolate Cappuccino Cocoa</h1><p>Steps: <br>
+
+                        1
+                        In chilled small bowl, beat whipping cream, 1 tablespoon brown sugar and 1 teaspoon espresso coffee with electric mixer on high speed until stiff peaks form. Cover and refrigerate until serving time.<br>
+                        2
+                        Mix milk, cocoa, 1/3 cup brown sugar and 2 tablespoons espresso coffee in 3-quart saucepan. Heat over medium heat, stirring occasionally, just to simmering (do not boil).<br>
+                        3
+                        Stir in chocolate until melted. Pour mixture into cups or mugs. Top each with whipped cream. Garnish with cinnamon sticks for stirring.</p></div>
+                 <div class="col-sx-12 col-sm-4 col-lg-4"><img src="images/pinkchocolate.jpg" alt="" class="w-100"><h1>Pink Velvet Hot Chocolate</h1><p>Steps: <br>
+
+                        1
+                        In a medium saucepan, combine the milk and white chocolate chips. Place over low heat and cook, stirring often until the chocolate is melted and smooth. Stir in the vanilla. Add 1 teaspoon red food coloring and then add more until your desired pink color is reached.<br>
+                        2
+                        Pour the hot chocolate into clear mugs and top with a dollop of whipped cream and sprinkle of pink sprinkles. Enjoy!</p></div>
+                 <div class="col-sx-12 col-sm-4 col-lg-4"><img src="images/mexicancoffee.jpg" alt="" class="w-100"><h1>Mexican Coffee</h1><p>Steps: <br>
+
+                        1
+                        Heat water, brown sugar, cinnamon and cloves to boiling in Dutch oven, stirring to dissolve sugar. Stir in coffee; reduce heat to medium-low. Cover and simmer 5 minutes.<br>
+                        2
+                        Stir in chocolate syrup and vanilla; remove from heat. Let stand 5 minutes for coffee grounds to settle. Strain coffee into coffee server or individual cups; discard grounds mixture. Serve with whipped cream.</p></div>
+                 <div class="col-sx-12 col-sm-4 col-lg-4"><img src="images/choccoffee.jpg" alt="" class="w-100"><h1>Choco-Hazelnut Coffee</h1><p>Steps: <br>
+
+                        1
+                        In medium bowl, mix coffee, creamer, water and 1/4 teaspoon cinnamon, stirring until coffee is dissolved.<br>
+                        2
+                        Pour into 2 ice-cube trays. Freeze at least 3 hours or until hardened. Transfer cubes to plastic storage container or bag.<br>
+                        3
+                        For each serving, place 2 coffee cubes, 2/3 cup milk and 4 water ice cubes in blender. Cover and blend on high speed about 20 seconds or until blended and slightly slushy. Pour into glass. Top with dollop of whipped cream and sprinkle of cinnamon.</p></div>
+                 
+             </div>
+         </div>
+     </div>
+
+     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">About us</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-lebel="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body"><p>At CoffeeDucks, each day starts with a great cup of coffee with family, friends, co-workers ... As great coffee should be experienced - not rushed! <br></p>
+
+                        <p>Our company was founded based on a passion to deliver you fresh roasted premium coffees that taste the way coffee was meant to taste, and we think a great cup of coffee inspires great conversation.  In some small way, we hope to impact this world through great tasting coffee shared in community with others. <br></p>
+                        <p>At CoffeeDucks, community includes all of us ... wherever we live, work, rest, and play. Our similarities outweigh our differences and our belief is that we can build community one cup at a time, whether here in the Northwest, with you our customers, and across the globe in the farm communities that produce our delicious coffee beans. <br></p>
+                        <p>Connect with us in person at one of our local Coffee Tasting Events in the Woodinville Wine District area.  Follow us on Facebook for the next tasting event.  </p> 
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button class="btn btn-success" data-dismiss="modal">Success</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <div class="modal fade" id="ModalRegistration" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-lebel="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   <form>
+                       <div class="form-group">
+                           <label for="exampleInputEmail">Email address</label>
+                           <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email" required>
+                           <small id="emailHelp" class="form-text text-muted">Enter your email </small>
+                       </div>
+                       <div class="form-group">
+                            <label for="exampleInputPass ">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password" required>
+                            <small id="passHelp" class="form-text text-muted ">Your password must be at least 8 characters long</small>
+                        </div>
+                         <div class="form-check">
+                             <label class="form-check-label">
+                                 <input type="checkbox" class="form-check-input"> Remember password
+                             </label>
+                         </div>
+                         <button type="submit" class="btn btn-primary">Enter</button>
+                   </form>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--
+     <div class="container">
+        <div class="w-25 p-3" style="background-color: green">25</div> //Это ширина блоков В25 - это ширина, а П3 - это высота
+        <div class="w-50 p-3" style="background-color: rgb(181, 219, 8)">50</div>
+        <div class="w-75 p-3" style="background-color: rgba(240, 100, 8, 0.973)">75</div>
+        <div class="w-100 p-3" style="background-color: rgb(197, 36, 14)">100</div>
+    </div> 
+     -->
+  
+    <div class="container-fluid p-5" style="background-color: #eee">
+        <div class="container">
+         <div class="row">
+          <div class="col">
+           <div class="card">
+              <img src="images/frenchPress.jpg" alt="" class="card-img-top">
+               <div class="card-body">
+                  <h4 class="card-title">French Press</h4>
+                  <p class="card-text">It's Not Really French
+                        What does a mug of French Press coffee and a slice of French Toast have in common?
+                        
+                        Considering their name, it may be surprising to learn they were both invented in a place better known for espresso. The first French Press was patented in Milan, Italy over 80 years ago and the classic design still persists to this day.
+                        
+                        
+                        In this guide we will learn how to use a French Press to make rich and flavorful coffee to complement your French Toast, or breakfast of choice.</p>
+                  <a href="RodzajeExpresow/expres1.html" class="btn btn-outline-info">Submit</a>
+              </div>
+           </div>
+          </div>
+          <div class="col">
+                <div class="card">
+                        <img src="images/DripMachine.jpg" alt="" class="card-img-top">
+                         <div class="card-body">
+                            <h4 class="card-title">Drip Coffee Machine</h4>
+                            <p class="card-text">Drip coffee makers are the most popular type of coffee makers used.
+
+                                    They include some of the most affordable coffee machines out there, and many come equipped with various features. The good ones have automatic cleaning systems, automatic shut off, and programmable brewing options that enable you to customize your drink the way you want it.
+                                    
+                                    People like drip coffee machines because they make coffee brewing easy and enjoyable. </p>
+                            <a href="RodzajeExpresow/expres2.html" class="btn btn-outline-info">Submit</a>
+                        </div>
+                     </div>
+          </div>
+          <div class="col">
+                <div class="card">
+                        <img src="images/ExpressMachine.jpg" alt="" class="card-img-top">
+                         <div class="card-body">
+                            <h4 class="card-title">Espresso machine</h4>
+                            <p class="card-text">An espresso machine brews coffee by forcing pressurized water near boiling point through a "puck" of ground coffee and a filter in order to produce a thick, concentrated coffee called espresso. The first machine for making espresso was built and patented in 1884 by Angelo Moriondo of Turin, Italy.
+                                    Espresso machines may be steam-driven, piston-driven, pump-driven, or air-pump-driven. Machines may also be manual or automatic.
+                            </p>
+                            <a href="RodzajeExpresow/expres3.html" class="btn btn-outline-info">Submit</a>
+                        </div>
+                     </div>
+          </div>
+         </div>
+        </div>
+    </div>
+     
+    <div class="footer" style="text-align: center;">
+      <p>Contacts:</p>
+      <p>Tel. +48 455 221 331</p>
+      <p>Mail. iamtired@gmail.com </p>
+      <p>adres. Warsaw st. Swietokrzyska h.10</p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

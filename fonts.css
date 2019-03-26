@@ -1,0 +1,14 @@
+@font-face{
+    font-family: BrushcrazyDEMO ; 
+    src: url(fonts/BrushcrazyDEMO.otf);
+}
+.nadpis{
+    font-family: BrushcrazyDEMO , "Times New Roman", Georgia , serif;
+    font-style: initial;
+    font-variant: small-caps;
+    height: 100px;
+    font-weight: 900;
+    color: orange;
+    text-shadow: black 3px 3px 7px;
+    font-size: 50px;
+}

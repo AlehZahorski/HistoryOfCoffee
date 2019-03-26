@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width , initial-scale=1 , shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="french.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"> <!--В этой строке дарк отвечает за темный цвет бара, а фиксед-топ отвечает за зафиксирование бара в верхней части страницы. Еще есть вариант sticky-top, в этом случае панель бара не будет закрывать часть страницы вверху а возьмет себе свою часть страницы-->
+            <a href="../main.html" class="navbar"> 
+                <img class="logo" src="../images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="../main.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">About us</a> <!--Здесь первая кнопка отвечающая за модальное окно-->
+                    </li>
+                    <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#ModalRegistration">Log in</a> <!--Здесь вторая кнопка отвечаюзая за модельное окно для регистрации и входа пользователей-->
+                        </li>
+                </ul>
+              <form class="form-inline mu-2 mu-lg-0">
+                  <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-succes my-3 my-sm-0"><p class="searchbutton">Search</p></button>
+              </form>
+            </div>
+         </nav>
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">About us</h5>
+                            <button class="close" type="button" data-dismiss="modal" aria-lebel="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body"><p>At CoffeeDucks, each day starts with a great cup of coffee with family, friends, co-workers ... As great coffee should be experienced - not rushed! <br></p>
+        
+                                <p>Our company was founded based on a passion to deliver you fresh roasted premium coffees that taste the way coffee was meant to taste, and we think a great cup of coffee inspires great conversation.  In some small way, we hope to impact this world through great tasting coffee shared in community with others. <br></p>
+                                <p>At CoffeeDucks, community includes all of us ... wherever we live, work, rest, and play. Our similarities outweigh our differences and our belief is that we can build community one cup at a time, whether here in the Northwest, with you our customers, and across the globe in the farm communities that produce our delicious coffee beans. <br></p>
+                                <p>Connect with us in person at one of our local Coffee Tasting Events in the Woodinville Wine District area.  Follow us on Facebook for the next tasting event.  </p> 
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button class="btn btn-success" data-dismiss="modal">Success</button>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        
+             <div class="modal fade" id="ModalRegistration" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+                            <button class="close" type="button" data-dismiss="modal" aria-lebel="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                           <form>
+                               <div class="form-group">
+                                   <label for="exampleInputEmail">Email address</label>
+                                   <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email" required>
+                                   <small id="emailHelp" class="form-text text-muted">Enter your email </small>
+                               </div>
+                               <div class="form-group">
+                                    <label for="exampleInputPass ">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password" required>
+                                    <small id="passHelp" class="form-text text-muted ">Your password must be at least 8 characters long</small>
+                                </div>
+                                 <div class="form-check">
+                                     <label class="form-check-label">
+                                         <input type="checkbox" class="form-check-input"> Remember password
+                                     </label>
+                                 </div>
+                                 <button type="submit" class="btn btn-primary">Enter</button>
+                           </form>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+ <div class="grid">
+   <div class="item1"> <h3 style="text-align: center;">French Press History</h3>
+     <hr/> <!--Горизонтальная линия которую так же можно регулировать с помощью стиля-->
+     <p>A French press, also known as a cafetière, cafetière à piston, Cafeteria, press pot, coffee press, or coffee plunger, is a coffee brewing device invented by Paolini Ugo and patented by Italian designer Attilio Calimani and Giulio Moneta in 1929. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illum impedit nulla ad eum quidem nobis laborum nesciunt deserunt asperiores quis totam distinctio repudiandae rerum voluptas, adipisci animi delectus doloremque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid corporis eveniet dicta numquam aperiam? Voluptas placeat consectetur necessitatibus alias ex, velit sapiente optio molestias repudiandae saepe quidem quam? Facilis molestias pariatur nostrum labore asperiores ipsam, vero dicta? Inventore voluptatem, molestiae ipsa at, illum temporibus nesciunt quis iusto labore necessitatibus expedita ex neque. Autem est ea dolorum commodi dignissimos soluta odit in ut quaerat rem molestias dolorem, temporibus impedit minus facere nulla saepe fuga explicabo quos voluptates. Odit error repudiandae praesentium quo nulla odio facilis dolores impedit labore voluptas, veniam officia? Porro incidunt tempore doloribus nulla sunt, velit consectetur quibusdam dolorem!</p>
+   </div>
+
+   <div class="item2"><h3 style="text-align: center;">Nomenclature</h3>
+      <hr style="background-color: black; height: 1px;">
+      <p>The French press goes by various names around the world. In Italy the press is known as a caffettiera a stantuffo. In New Zealand, Australia, and South Africa the apparatus is known as a coffee plunger, and coffee brewed in it as plunger coffee. Its French name is cafetière à piston, most commonly referred to simply as cafetière in France, though some speakers might also use genericized trademarks, notably Melior or Bodum. In the UK and the Netherlands the device is known as a cafetière, the French word for coffee maker or pot. In the United States and Canada, it is known as a French press or coffee press. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ducimus, libero quia deleniti repudiandae, nemo neque quibusdam perferendis necessitatibus, error reiciendis enim! Temporibus reiciendis facere accusantium necessitatibus ad iusto quis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nobis nostrum recusandae iusto debitis dicta nisi impedit explicabo maiores deleniti.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam a dolorem, rerum accusantium at cum asperiores assumenda provident fugit quisquam? Sit aliquam, ipsum ratione officiis omnis autem natus amet, ut delectus fuga repellendus quaerat maxime voluptates incidunt! Commodi dolore sed officiis quasi quibusdam quam odio, repudiandae necessitatibus quisquam animi velit!</p>
+   </div>
+   <img class="item4 photo" src="../images/frenchphoto3.png" style=" width: 300px; height:350px; border-radius: 100px;" alt="">
+   <img class="item3 photo" style="width: 200px; height: 310px;" src="../images/frenchphoto2.png" alt="">
+   
+
+   <div class="item5"><h3  style=" text-align: center; ">History and design</h3>
+     <hr style="background-color: black; height: 1px;">
+     Brewed coffee is made by pouring hot water onto ground coffee beans, then allowing to brew. There are several methods for doing this, including using a filter, a percolator, and a French press. Terms used for the resulting coffee often reflect the method used, such as drip brewed coffee, filtered coffee, pour-over coffee, immersion brewed coffee, or simply coffee. Water seeps through the ground coffee, absorbing its constituent chemical compounds, and then passes through a filter. The used coffee grounds are retained in the filter with the brewed coffee collecting in a vessel such as a carafe or pot.
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis inventore, nostrum magni optio consectetur quos quidem iure ab officiis magnam sunt veniam illum maxime porro enim unde provident commodi eos. Dicta exercitationem reiciendis assumenda amet aperiam voluptates aliquam, optio commodi corrupti reprehenderit, voluptatum provident voluptate natus libero minus quidem deleniti ullam laudantium asperiores impedit voluptas quaerat? Quibusdam, cupiditate. Maiores, modi nam id in cum vitae. Totam temporibus voluptates quo? Obcaecati, similique quidem. Officia, asperiores quasi officiis maxime optio ipsa non facilis natus, velit, aspernatur impedit est itaque! Similique, eos incidunt! Minus, corporis. A, magni autem voluptate quia earum aliquid quae magnam dignissimos vel! Autem beatae esse saepe accusantium hic ex, neque maiores velit? Necessitatibus magni quidem error minus asperiores corporis!
+</div>
+
+    <div class="item6"><h3  style=" text-align: center; ">Operation</h3>
+        <hr style="background-color: black; height: 1px;">
+      <p>Coffee is brewed by placing coarsely ground coffee in the empty beaker and adding hot—between 93–96 °C (199–205 °F)—water, in proportions of about 30 g (1.1 oz) of coffee grounds to 500 ml (17 US fl oz) of water, more or less to taste. The brewing time is about two to four minutes. Then the mesh plunger or piston is pressed, to separate the grounds and hold them at the bottom of the beaker. The mesh piston normally does not compress the coffee grounds, as most designs leave a generous space—about 30 mm (1.2 in)—below the piston in its lowest position. If the brewed coffee is allowed to remain in the beaker with the used grounds, the coffee may become astringent and bitter, though this is an effect that some users of the French press consider desirable.
+
+      <br/>A French press works best with coffee of a coarser grind than does a drip brew coffee filter, about the consistency of kosher salt.[3] Finer grounds, when immersed in water, have lower permeability, requiring an excessive amount of force to be applied by hand to lower the plunger and are more likely to seep through or around the perimeter of the press filter and into the coffee.[4] Additionally, finer grounds will tend to over-extract and cause the coffee to taste bitter.[3]
+        
+      It is believed that the optimum time for brewing the coffee is around four minutes, and some consider the coffee spoiled after about 20 minutes.[5] Other approaches, such as cold-brewing, require several hours of contact between the water and the grounds to achieve the desired extraction.</p>
+    </div> 
+    <img class="item7 photo" src="../images/frenchphoto4.png" style="width:350px; height:290px; border-radius: 50px;">
+    <div class="item8"><h3  style=" text-align: center; ">Variations</h3>
+      <hr style="background-color: black; height: 1px;">
+      <p>French presses are more portable and self-contained than other coffee makers. Travel mug versions exist, which are made of tough plastic instead of the more common glass, and have a sealed lid with a closable drinking hole. Some versions are marketed to hikers and backpackers not wishing to carry a heavy, metal percolator or a filter using drip brew. Other versions include stainless steel, insulated presses designed to keep the coffee hot, similar in design to thermos flasks. One variation uses a "pull" design: the coffee grounds are placed in a mesh basket, which is then pulled into the lid after brewing, trapping the grounds out of the coffee. Others produce a similar effect by having shutters that can be closed via the top of the press, sealing the grounds off from the coffee entirely. French presses are also sometimes used to make cold brew coffee.</p>
+    </div>  
+    
+    <div class="item9"><h3  style=" text-align: center; ">Tea</h3>
+      <hr style="background-color: black; height: 1px;">
+      <p>In the same way as coffee, a French press can also be used in place of a tea infuser to brew loose tea. To some extent the tea will continue to steep even after the plunger is depressed, which may cause the tea remaining in the press to become bitter. It might thus be advisable to decant the tea into a serving vessel after preparation. The same French press should not be used for both tea and coffee unless thoroughly cleaned, as coffee residue may spoil the flavor of the tea.
+
+      However, this method is more suitable for light teas and is not suitable for Indian Chai (which requires to be boiled) or Chinese tea (which tends to be diffused for a long time, with tea leaves reused as a rule).</p>
+      </div>
+   <img class="item10 photo" src="../images/tea.png" style="text-align: center; width:250px; height: 250px; ">
+ 
+
+</div>
+<div class="footer" style="text-align: center;">
+        <p>Contacts:</p>
+        <p>Tel. +48 455 221 331</p>
+        <p>Mail. iamtired@gmail.com </p>
+        <p>adres. Warsaw st. Swietokrzyska h.10</p>
+      </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
